@@ -2,7 +2,7 @@ package clase02_poo;
 
 import java.util.Scanner;
 
-public class País {
+public class Pais {
 
     String nombre;
     int personas;
