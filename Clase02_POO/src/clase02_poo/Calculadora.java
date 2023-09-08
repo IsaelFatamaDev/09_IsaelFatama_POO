@@ -2,8 +2,8 @@ package clase02_poo;
 
 public class Calculadora {
     // Atributos
-    private int numero1;
-    private int numero2;
+    int numero1;
+    int numero2;
 
 
     public Calculadora(int numero1, int numero2) {
