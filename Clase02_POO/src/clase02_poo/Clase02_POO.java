@@ -15,10 +15,10 @@ public class Clase02_POO {
         */
         Calculadora miCalculadora = new Calculadora(10, 5);
 
-        System.out.println("Suma: " + miCalculadora.sumar());
-        System.out.println("Resta: " + miCalculadora.restar());
-        System.out.println("Multiplicación: " + miCalculadora.multiplicar());
-        System.out.println("División: " + miCalculadora.dividir());
+        System.out.println("Suma: " + miCalculadora.sumar(3));
+        System.out.println("Resta: " + miCalculadora.restar(2));
+        System.out.println("Multiplicación: " + miCalculadora.multiplicar(4));
+        System.out.println("División: " + miCalculadora.dividir(2));
         System.out.println("");
         System.out.println("=========");
         System.out.println("");
