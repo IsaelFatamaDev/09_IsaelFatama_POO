@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+     * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+     * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package clase03_poo;
 
@@ -29,7 +29,7 @@ public class Persona {
         System.out.println("Estoy Caminando");
     }
 
-    public int edadendias(int edad) {
+    public int edadEnDias() {
         return edad * 365;
     }
 
@@ -46,10 +46,10 @@ public class Persona {
     }
 
     public boolean esMayorDeEdad() {
-        if (edad >= 18) {
-            return true;
-        } else {
-            return false;
-        }
+        return edad >= 18;
+    }
+
+    public boolean esMayorDeEdad(int edadLimite) {
+        return edad >= edadLimite;
     }
 }
