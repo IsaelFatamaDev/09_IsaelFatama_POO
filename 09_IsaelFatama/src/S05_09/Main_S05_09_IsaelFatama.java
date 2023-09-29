@@ -1,8 +1,10 @@
 package S05_09;
 
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Main_S05_09_IsaelFatama {
+
     public static void main(String[] args) {
         Libro_09 libro = new Libro_09();
 
@@ -25,5 +27,25 @@ public class Main_S05_09_IsaelFatama {
         estudiante.telefono = JOptionPane.showInputDialog("Ingrese el número de teléfono del estudiante:");
 
         estudiante.mostrarDatosJOptionPane();
+
+        Scanner scanner = new Scanner(System.in);
+
+        CuentaBancaria_09 cuenta = new CuentaBancaria_09();
+        System.out.println("Ingrese los datos de la cuenta bancaria:");
+        cuenta.ingresarDatosDesdeScanner();
+
+        Auto_09 auto = new Auto_09();
+        System.out.println("\nIngrese los datos del auto:");
+        auto.ingresarDatosDesdeScanner();
+
+        cuenta.ingresarDinero(1000);
+        cuenta.retirarDinero(500);
+        cuenta.consultarSaldo();
+        cuenta.cambiarTipoCuenta("Ahorros");
+
+        auto.arrancar();
+        auto.acelerar();
+        auto.frenar();
+        auto.detener();
     }
 }
