@@ -1,6 +1,6 @@
-package S07_09_IsaelFatama;
+package S07_09;
 
-public class S07_Calculadora1 {
+public class Calculadora1_09 {
 
     public void sumar(int a, int b) {
         int resultado = a + b;

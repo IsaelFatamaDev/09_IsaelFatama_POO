@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package S07_09_IsaelFatama;
+package S07_09;
 
 /**
  *
  * @author LAB_1
  */
-public class Main_S07_09_IsaelFatama {
+public class Main_S07_09 {
     public static void main(String[] args) {
         System.out.println("ACTIVIDAD DE CALCULADORA 1");
         System.out.println("");
 
-        S07_Calculadora1 miCalculadora1 = new S07_Calculadora1();
+        Calculadora1_09 miCalculadora1 = new Calculadora1_09();
         miCalculadora1.sumar(5, 3);
         miCalculadora1.restar(15, 4);
         miCalculadora1.multiplicar(2, 1);
@@ -23,7 +23,7 @@ public class Main_S07_09_IsaelFatama {
         System.out.println("ACTIVIDAD DE CALCULADORA 2");
         System.out.println("");
 
-        S07_Calculadora2 cal2 = new S07_Calculadora2();
+        Calculadora2_09 cal2 = new Calculadora2_09();
         int resultadoSuma = cal2.sumar(3, 2);
         System.out.println("La suma es: " + resultadoSuma);
 
@@ -33,7 +33,7 @@ public class Main_S07_09_IsaelFatama {
         int resultadoMultiplicacion = cal2.multiplicar(7, 6);
         System.out.println("La multiplicación es: " + resultadoMultiplicacion);
 
-        S07_Calculadora2.dividir(8, 2);
-        S07_Calculadora2.dividir(6, 0);
+        Calculadora2_09.dividir(8, 2);
+        Calculadora2_09.dividir(6, 0);
     }
 }
